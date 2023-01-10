@@ -1,0 +1,13 @@
+.destinations__head {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.destinations__heading {
+  color: #555555;
+  text-decoration: underline #61bd9b 5px;
+}
+
+.destinations__para {
+  color: #797979;
+}

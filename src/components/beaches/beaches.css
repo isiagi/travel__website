@@ -1,0 +1,41 @@
+.beaches__wrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  padding: 5rem 0;
+}
+
+.each-slide {
+  height: 350px;
+}
+
+.beaches__para {
+  color: #797979;
+}
+
+.beaches__title {
+  color: #555;
+}
+
+.beaches__title1 {
+  text-decoration: underline #53bad5 5px;
+}
+
+.beaches__dest {
+  color: #797979;
+  padding: 0.5rem 0;
+  line-height: 0.5me;
+}
+
+.he3 {
+  color: #555;
+}
+
+.through {
+  font-weight: 400;
+  text-decoration: line-through;
+}
+
+.small {
+  font-weight: 300;
+}

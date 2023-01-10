@@ -1,0 +1,24 @@
+.banner__container {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("https://images.unsplash.com/photo-1440778303588-435521a205bc?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8aG9saWRheXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 50vh;
+  display: grid;
+  place-items: center;
+}
+
+.banner__wrapper {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+}
+
+.banner__title {
+  color: #fff;
+}
+
+.banner__title1 {
+  text-decoration: underline #673b2c 5px;
+}
