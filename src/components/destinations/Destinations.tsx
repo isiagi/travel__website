@@ -10,7 +10,7 @@ const Destinations = (props: Props) => {
   return (
     <div className="destinations__container">
       <div className="middle destionations__wrapper">
-        <Mini paragraph="Our Proposal" heading="OUR DESTINATIONS" />
+        <Mini paragraph="OUR PROPOSAL" heading="DESTINATIONS" />
         <div className="destionations__grid">
           {destinations.map((data) => (
             <div

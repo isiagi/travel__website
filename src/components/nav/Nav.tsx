@@ -31,9 +31,9 @@ const Nav = (props: Props) => {
 
         <div className="nav__icons">
           {open ? (
-            <ImCancelCircle onClick={() => setOpen(false)} />
+            <ImCancelCircle className="nav__ic" onClick={() => setOpen(false)} />
           ) : (
-            <CgDetailsMore onClick={() => setOpen(true)} />
+            <CgDetailsMore className="nav__ic" onClick={() => setOpen(true)} />
           )}
         </div>
       </div>

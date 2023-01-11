@@ -11,7 +11,7 @@ const Package = (props: Props) => {
   return (
     <div className="package__container">
       <div className="middle package__wrapper">
-        <Mini paragraph="PROMOTIONS" heading="OUR PACKAGES" />
+        <Mini paragraph="PROMOTIONS" heading="PACKAGES" />
 
         <div className="package__grid">
           {card.map(

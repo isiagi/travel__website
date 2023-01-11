@@ -4,6 +4,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  background-attachment: fixed;
   height: 50vh;
   display: grid;
   place-items: center;
@@ -12,7 +13,7 @@
 .banner__wrapper {
   display: flex;
   align-items: center;
-  gap: 3rem;
+  gap: 9rem;
 }
 
 .banner__title {
@@ -20,5 +21,5 @@
 }
 
 .banner__title1 {
-  text-decoration: underline #673b2c 5px;
+  text-decoration: underline #DB8A73 5px;
 }

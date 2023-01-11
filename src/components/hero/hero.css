@@ -23,7 +23,7 @@
 }
 
 .hero__heading1 {
-  text-decoration: underline #673b2c 5px;
+  text-decoration: underline #DB8A73 5px;
 }
 
 .hero__input {
@@ -60,6 +60,11 @@
   background-color: black;
   opacity: 0.6;
   padding: 8px 12px;
+}
+
+.hero__item:hover {
+  color: #DB8A73;
+  opacity: 0.8;
 }
 
 .hero__item .icon {

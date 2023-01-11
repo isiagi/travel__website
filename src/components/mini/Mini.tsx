@@ -9,7 +9,9 @@ const Mini = ({ paragraph, heading }: Props) => {
   return (
     <div className="destinations__head">
       <p className="destinations__para">{paragraph}</p>
-      <h2 className="destinations__heading">{heading}</h2>
+      <h1 className="destinations__heading">
+        OUR <span className="destinations__heading1">{heading}</span>
+      </h1>
     </div>
   );
 };

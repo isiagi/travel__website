@@ -24,9 +24,9 @@ const Beaches = (props: Props) => {
             Lorem ipsum dolor sit amet, consectetur adip iscing elit. Proin
             rhoncus urna dictum neque molestie ultricies mauris ac.
           </p>
-          <h3 className="he3">
+          <h2 className="he3">
             <span className="through">900</span> 500 $ <small className="small"> / FOR PERSON</small>
-          </h3>
+          </h2>
           <Button name="Book" bg="#61BD9B" color="#FFFFFF"/>
         </div>
 

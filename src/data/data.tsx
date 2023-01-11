@@ -2,6 +2,36 @@ import { BiDrink } from "react-icons/bi";
 import { FaTheaterMasks } from "react-icons/fa";
 import { GiMountains } from "react-icons/gi";
 import { HiOutlineCamera } from "react-icons/hi";
+import { AiOutlineGold } from "react-icons/ai";
+
+const orange = "#DB8A73";
+
+const blue = "#53BAD5";
+
+const green = "#53BAD5";
+
+const dark = "#555"
+
+const light = "#797979"
+
+const bannerImage =
+  "https://images.unsplash.com/photo-1440778303588-435521a205bc?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8aG9saWRheXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60";
+
+let Relaxlink =
+  "https://images.unsplash.com/photo-1481833761820-0509d3217039?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cmVsYXh8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60";
+
+let Culturallink =
+  "https://images.unsplash.com/photo-1519011985187-444d62641929?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTl8fGN1bHR1cmFsJTIwYWZyaWNhfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60";
+
+let Sportlink =
+  "https://images.unsplash.com/photo-1444491741275-3747c53c99b4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjB8fHNwb3J0c3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60";
+
+let Historylink =
+  "https://plus.unsplash.com/premium_photo-1661963789085-b057eb0185c7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8aGlzdG9yeSUyMGFmcmljYXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60";
+
+let Aboutlink =
+  "https://images.unsplash.com/photo-1512844417531-fd0e4fc0af27?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTh8fGhpc3RvcnklMjBhZnJpY2F8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60";
+
 
 const card: Array<{
   id: number;
@@ -81,7 +111,7 @@ const card: Array<{
     id: 1,
     img: "https://images.unsplash.com/photo-1663924665428-e5b35266f7cb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTU0fHxyd2FuZGF8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
     state: "Virunga National Park",
-    icon: <BiDrink />,
+    icon: <AiOutlineGold />,
     country: "Congo",
     type: "Sport",
     price: "400 $",
@@ -147,7 +177,7 @@ const destinations: Array<{
     id: 5,
     hoverTitle: "RDC Tours",
     buttonText: "View Destination",
-    icon: <HiOutlineCamera />,
+    icon: <AiOutlineGold />,
     cardHeading: "Congo",
     packages: "3 Packages",
     image:

@@ -21,6 +21,10 @@
   text-decoration: underline #53bad5 5px;
 }
 
+.beaches__text {
+  line-height: 2rem;
+}
+
 .beaches__dest {
   color: #797979;
   padding: 0.5rem 0;
@@ -34,6 +38,7 @@
 .through {
   font-weight: 400;
   text-decoration: line-through;
+  color: #797979;
 }
 
 .small {
