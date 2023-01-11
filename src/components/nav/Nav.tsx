@@ -20,10 +20,10 @@ const Nav = (props: Props) => {
 
         <div className={`nav__ul ${open ? "active" : " "}`}>
           <ul>
-            <li>
+            <li onClick={() => setOpen(false)}>
               <Link to="/">Home</Link>
             </li>
-            <li>
+            <li onClick={() => setOpen(false)}>
               <Link to="/about">About</Link>
             </li>
           </ul>
@@ -31,7 +31,10 @@ const Nav = (props: Props) => {
 
         <div className="nav__icons">
           {open ? (
-            <ImCancelCircle className="nav__ic" onClick={() => setOpen(false)} />
+            <ImCancelCircle
+              className="nav__ic"
+              onClick={() => setOpen(false)}
+            />
           ) : (
             <CgDetailsMore className="nav__ic" onClick={() => setOpen(true)} />
           )}

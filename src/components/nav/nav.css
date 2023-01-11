@@ -44,6 +44,10 @@
 }
 
 @media screen and (max-width: 991px) {
+    .nav__container1 {
+        opacity: 1;
+    }
+
     .nav__icons {
         display: block;
     }
@@ -57,6 +61,8 @@
         text-align: center;
         left: -100%;
         transition: 0.7s ease;
+        height: 100vh;
+        padding-top: 2rem;
     }
 
     .nav__ul ul {
