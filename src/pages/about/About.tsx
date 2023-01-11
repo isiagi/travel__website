@@ -1,10 +1,12 @@
 import Header from "../../components/header/Header";
+import scrollToTop from "../../hooks/scrollToTop";
 
 import "./about.css";
 
 type Props = {};
 
 const About = (props: Props) => {
+  scrollToTop()
   return (
     <div>
       <Header
