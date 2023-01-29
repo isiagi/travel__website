@@ -12,7 +12,7 @@ const Header = ({ headerTitle, bg }: Props) => {
       style={{
         backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(${bg})`,
         backgroundSize: "cover",
-        height: "100%",
+        minHeight: "60vh",
         backgroundPosition: "center",
       }}
     >

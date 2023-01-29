@@ -46,7 +46,7 @@ const Nav = (props: Props) => {
 
 export default Nav;
 
-function windowOffset() {
+function windowOffset():(number)[] {
   const [offset, setOffset] = useState(0);
 
   useEffect(() => {
